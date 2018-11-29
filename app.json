@@ -1,0 +1,25 @@
+{
+  "name": "backbon",
+  "scripts": {
+  },
+  "env": {
+    "client.run": "NTE2OTI3ODU5MDYzOTE0NDk3.DuACwQ.xd0jh10J6NNJFo56OHVlfSxEni0",
+    "Token": "NTE2OTI3ODU5MDYzOTE0NDk3.DuACwQ.xd0jh10J6NNJFo56OHVlfSxEni0"
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "https://github.com/noobgamer3/backbon"
+    }
+  ]
+}
