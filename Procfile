@@ -1,1 +1,1 @@
-worker: python BackBonbot.py
+worker: python <BackBonbot>.py
